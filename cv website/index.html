@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayush Kumar — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-trail" id="trail"></div>
+<div class="progress-line" id="progress"></div>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#">AK<span style="color:var(--text)">.</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#publications">Research</a></li>
+    <li><a href="#achievements">Awards</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-orb orb1"></div>
+  <div class="hero-bg-orb orb2"></div>
+
+  <p class="hero-tag">Available for opportunities · Roorkee, India</p>
+
+  <h1 class="hero-name">
+    <span class="line"><span>AYUSH</span></span>
+    <span class="line"><span>KUMAR</span></span>
+  </h1>
+
+  <p class="hero-subtitle">CS Engineer · AI/ML Researcher · Full-Stack Developer</p>
+
+  <p class="hero-desc">
+    Building intelligent systems at the intersection of machine learning and human-centred design.
+    Published researcher, national hackathon winner, and IEEE student member.
+  </p>
+
+  <div class="hero-cta">
+    <a href="#projects" class="btn btn-primary">View Work</a>
+    <a href="mailto:ayushkrshandilya@gmail.com" class="btn btn-outline">Get in Touch</a>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num">4+</div>
+      <div class="stat-label">Publications</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">3+</div>
+      <div class="stat-label">Projects</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">2×</div>
+      <div class="stat-label">Hackathon Winner</div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+    Scroll
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <p class="section-tag reveal">Identity</p>
+  <h2 class="section-title reveal">About Me</h2>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>I'm a final-year Computer Science student at College of Engineering Roorkee, passionate about solving hard problems with elegant code and novel ML approaches. My work spans intelligent redaction systems, sentiment analysis engines, and even landmine detection drones.</p>
+      <p>Beyond coursework, I've published four papers at prestigious conferences including IIT Mandi's ICCNT and Global AI Summit at Bennett University — exploring topics from KAN networks in dermatology to drowsiness detection systems.</p>
+      <div class="about-skills">
+        <span class="skill-chip">Python</span>
+        <span class="skill-chip">JavaScript</span>
+        <span class="skill-chip">Java</span>
+        <span class="skill-chip">C</span>
+        <span class="skill-chip">SQL</span>
+        <span class="skill-chip">ReactJS</span>
+        <span class="skill-chip">NextJS</span>
+        <span class="skill-chip">TensorFlow</span>
+        <span class="skill-chip">OpenCV</span>
+        <span class="skill-chip">Pandas</span>
+        <span class="skill-chip">NumPy</span>
+        <span class="skill-chip">NLTK</span>
+        <span class="skill-chip">Git</span>
+        <span class="skill-chip">LaTeX</span>
+      </div>
+    </div>
+    <div class="reveal">
+      <div class="about-info">
+        <div class="info-row">
+          <span class="label">Location</span>
+          <span class="val">Roorkee, India</span>
+        </div>
+        <div class="info-row">
+          <span class="label">Email</span>
+          <span class="val">ayushkrshandilya@gmail.com</span>
+        </div>
+        <div class="info-row">
+          <span class="label">Phone</span>
+          <span class="val">+91 6396163449</span>
+        </div>
+        <div class="info-row">
+          <span class="label">Status</span>
+          <span class="val" style="color:var(--accent)">● Open to work</span>
+        </div>
+      </div>
+
+      <div class="edu-block" style="margin-top:2rem">
+        <div class="edu-item">
+          <div class="edu-degree">B.Tech — Computer Science</div>
+          <div class="edu-meta">COER · 2022–2026</div>
+          <div class="edu-score">CGPA: 7.0</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-degree">Senior Secondary (XII)</div>
+          <div class="edu-meta">CBSE · 2022</div>
+          <div class="edu-score">70.0%</div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-degree">Secondary (X)</div>
+          <div class="edu-meta">CBSE · 2020</div>
+          <div class="edu-score">72.5%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <p class="section-tag reveal">Work</p>
+  <h2 class="section-title reveal">Projects</h2>
+  <div class="projects-grid reveal">
+
+    <div class="project-card">
+      <div class="project-num">01</div>
+      <div class="project-date">Sep 2024 – Dec 2024</div>
+      <div class="project-title">RE-DACT</div>
+      <p class="project-desc">Intelligent Multi-Format Redaction and Data Privacy Solution. A web-based AI system for automated redaction and privacy protection, handling text, images, and documents using detection and masking.</p>
+      <div class="project-stack">
+        <span class="stack-tag">Python</span>
+        <span class="stack-tag">OCR</span>
+        <span class="stack-tag">TensorFlow</span>
+        <span class="stack-tag">ReactJS</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-num">02</div>
+      <div class="project-date">Dec 2023</div>
+      <div class="project-title">Online Sentiment Analysis</div>
+      <p class="project-desc">Real-time sentiment classification from user input or online feeds. Uses advanced NLP techniques for extracting emotional tone from text with high accuracy.</p>
+      <div class="project-stack">
+        <span class="stack-tag">Python</span>
+        <span class="stack-tag">NLTK</span>
+        <span class="stack-tag">MongoDB</span>
+        <span class="stack-tag">JavaScript</span>
+        <span class="stack-tag">ReactJS</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-num">03</div>
+      <div class="project-date">Jan 2024</div>
+      <div class="project-title">Landmine Detection Drone</div>
+      <p class="project-desc">ML-enabled drone system to detect buried landmines safely. Uses sensors and image data to detect anomalies on terrain, potentially saving lives in conflict zones.</p>
+      <div class="project-stack">
+        <span class="stack-tag">Python</span>
+        <span class="stack-tag">OpenCV</span>
+        <span class="stack-tag">IoT Sensors</span>
+        <span class="stack-tag">ML</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PUBLICATIONS -->
+<section id="publications">
+  <p class="section-tag reveal">Research</p>
+  <h2 class="section-title reveal">Publications</h2>
+  <div class="pub-list reveal">
+
+    <div class="pub-item">
+      <div>
+        <div class="pub-title">Behavioral Characteristics-Based Drowsiness Detection System Using Machine Learning</div>
+        <div class="pub-venue">ICCNT-2024 · IIT Mandi</div>
+      </div>
+      <a class="pub-link" href="https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=Behavioral+Characteristics+Drowsiness+Detection+Machine+Learning" target="_blank" rel="noopener">
+        View Paper
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+      </a>
+    </div>
+
+    <div class="pub-item">
+      <div>
+        <div class="pub-title">Kolmogorov-Arnold Networks in Dermatology: Skin Lesion Classification</div>
+        <div class="pub-venue">Global AI Summit · Bennett University</div>
+      </div>
+      <a class="pub-link" href="https://scholar.google.com/scholar?q=Kolmogorov-Arnold+Networks+Dermatology+Skin+Lesion+Classification" target="_blank" rel="noopener">
+        View Paper
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+      </a>
+    </div>
+
+    <div class="pub-item">
+      <div>
+        <div class="pub-title">Underwater Image Enhancement with Stable Diffusion and DreamBooth-SSIM Evaluation</div>
+        <div class="pub-venue">ICCNT-2024 · IIT Mandi</div>
+      </div>
+      <a class="pub-link" href="https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=Underwater+Image+Enhancement+Stable+Diffusion+DreamBooth+SSIM" target="_blank" rel="noopener">
+        View Paper
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+      </a>
+    </div>
+
+    <div class="pub-item">
+      <div>
+        <div class="pub-title">Advancements in Animal Behaviour Monitoring and Livestock Management</div>
+        <div class="pub-venue">IC3I-2024 · Amity University</div>
+      </div>
+      <a class="pub-link" href="https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=Animal+Behaviour+Monitoring+Livestock+Management+IC3I" target="_blank" rel="noopener">
+        View Paper
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements">
+  <p class="section-tag reveal">Recognition</p>
+  <h2 class="section-title reveal">Achievements</h2>
+  <div class="ach-grid reveal">
+    <div class="ach-card">
+      <div class="ach-icon">🥈</div>
+      <div class="ach-title">2nd Place — National Hackathon 4.0</div>
+      <div class="ach-year">2024 · ₹50,000 Cash Prize</div>
+    </div>
+    <div class="ach-card">
+      <div class="ach-icon">🏆</div>
+      <div class="ach-title">Winner — Smart India Hackathon (SIH)</div>
+      <div class="ach-year">2024 · Internal Round</div>
+    </div>
+    <div class="ach-card">
+      <div class="ach-icon">⚡</div>
+      <div class="ach-title">Active IEEE Student Member</div>
+      <div class="ach-year">Ongoing · Technical Events & Workshops</div>
+    </div>
+    <div class="ach-card">
+      <div class="ach-icon">📄</div>
+      <div class="ach-title">4 Conference Publications</div>
+      <div class="ach-year">IIT Mandi · Bennett · Amity University</div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <p class="section-tag reveal">Experience</p>
+  <h2 class="section-title reveal">Work History</h2>
+  <div class="exp-list reveal">
+    <div class="exp-item">
+      <div class="exp-period">Jun 2023 – Jul 2023</div>
+      <div>
+        <div class="exp-role">Web Development Intern</div>
+        <div class="exp-company">Oasis Infobyte</div>
+        <div class="exp-desc">Built responsive pages using HTML, CSS, and JavaScript as part of a structured internship programme. Gained experience in modern web standards and performance optimization.</div>
+      </div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-period">Remote · Ongoing</div>
+      <div>
+        <div class="exp-role">Freelance Frontend Developer</div>
+        <div class="exp-company">Independent</div>
+        <div class="exp-desc">Delivering frontend solutions for client projects using modern web technologies including ReactJS and NextJS. Handling end-to-end UI development from design to deployment.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <p class="section-tag reveal">Credentials</p>
+  <h2 class="section-title reveal">Certifications</h2>
+  <div class="cert-grid reveal">
+    <div class="cert-card">
+      <div class="cert-icon">🪟</div>
+      <div>
+        <div class="cert-name">Microsoft Technology Associate</div>
+        <div class="cert-org">Web Development (Python) · Microsoft</div>
+      </div>
+    </div>
+    <div class="cert-card">
+      <div class="cert-icon">🎓</div>
+      <div>
+        <div class="cert-name">Internshala Certified</div>
+        <div class="cert-org">Web Development · Internshala</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-content">
+    <p class="section-tag reveal">Let's Talk</p>
+    <h2 class="contact-big reveal">Have an idea?<br>Let's <em>build it</em> together.</h2>
+    <div class="contact-links reveal">
+      <a href="mailto:ayushkrshandilya@gmail.com" class="contact-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Email Me
+      </a>
+      <a href="https://github.com/" target="_blank" rel="noopener" class="contact-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        GitHub
+      </a>
+      <a href="https://linkedin.com/" target="_blank" rel="noopener" class="contact-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+      <a href="tel:+916396163449" class="contact-link">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.9 13.6a19.79 19.79 0 01-3.07-8.67A2 2 0 012.8 3h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 10.7a16 16 0 006.29 6.29l1.06-1.06a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        +91 6396163449
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2025 Ayush Kumar. All rights reserved.</span>
+  <span style="color:var(--accent)">Crafted with code & curiosity.</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
